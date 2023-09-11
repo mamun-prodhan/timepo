@@ -7,9 +7,13 @@ import tablet from "../../src/assets/tablet.png";
 
 const TheDials = () => {
   return (
-    <div className="px-4 md:px-10 lg:px-48 mt-32">
+    <div className="px-6 md:px-16 lg:px-56 mt-10 md:mt-16 lg:mt-24">
+      <h2 className="mb-4 md:mb-5 lg:mb-10 text-xl md:text-2xl lg:text-3xl text-center font-medium uppercase">
+        how it’s works
+      </h2>
+      <hr className="h-px w-16 md:w-20 lg:w-24 bg-[#989898] mx-auto" />
       {/* the dials start */}
-      <div className="flex gap-6 md:gap-0 flex-col md:flex-row-reverse items-center justify-center">
+      <div className="mt-12 md:mt-20 lg:mt-26 flex gap-6 md:gap-0 flex-col md:flex-row-reverse items-center justify-center">
         <div className="flex-1">
           <img
             className="w-[200px] md:w-[250px] lg:w-[295px]"
