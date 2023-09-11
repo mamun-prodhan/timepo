@@ -5,6 +5,8 @@ import straps from "../../src/assets/straps.png";
 import tab from "../../src/assets/tab.png";
 import laptop from "../../src/assets/laptop.png";
 import tablet from "../../src/assets/tablet.png";
+import curveLeft from "../../src/assets/left-curve.png";
+import curveRight from "../../src/assets/right-curve.png";
 
 const TheDials = () => {
   return (
@@ -44,7 +46,14 @@ const TheDials = () => {
       </div>
       {/* the dials end */}
       {/* the bezels start */}
-      <div className="mt-16 md:mt-24 lg:mt-36 flex gap-6 md:gap-0 flex-col md:flex-row items-center justify-center">
+      <div className="relative overflow-hidden mt-16 md:mt-24 lg:mt-36 flex gap-6 md:gap-0 flex-col md:flex-row items-center justify-center">
+        {/* curve */}
+        <img
+          className="hidden md:block absolute z-[-1] md:w-[70%] md:top-[50%] lg:top-[50%] md:right-[-60%] lg:right-[-55%] translate-x-[-50%]
+         translate-y-[-50%] "
+          src={curveLeft}
+          alt=""
+        />
         <div className="flex-1">
           <img
             className="w-[200px] md:w-[250px] lg:w-[295px]"
@@ -74,7 +83,14 @@ const TheDials = () => {
       </div>
       {/* the bezrls end */}
       {/* the straps start */}
-      <div className="mt-16 md:mt-24 lg:mt-36 flex gap-6 md:gap-0 flex-col md:flex-row-reverse items-center justify-center">
+      <div className="overflow-hidden relative mt-16 md:mt-24 lg:mt-36 flex gap-6 md:gap-0 flex-col md:flex-row-reverse items-center justify-center">
+        {/* curve */}
+        <img
+          className="hidden md:block absolute z-[-1] md:w-[70%] md:top-[50%] lg:top-[50%] md:right-[30%] lg:right-[30%] translate-x-[-50%]
+         translate-y-[-50%] "
+          src={curveRight}
+          alt=""
+        />
         <div className="flex-1">
           <img
             className="w-[200px] md:w-[250px] lg:w-[295px]"
@@ -103,7 +119,7 @@ const TheDials = () => {
         </div>
       </div>
       {/* the straps end */}
-      {/* tiempo*/}
+      {/* tiempo start*/}
       <div className="mt-16 md:mt-24 lg:mt-52 mb-10 md:mb-16 lg:mb-24">
         <div className="px-0 md:px-10 lg:px-20 mb-10 md:mb-16 lg:mb-20 ">
           <p className="pl-4 md:pl-8 lg:pl-12 border-l-2 border-[#5D5D5D] text-2xl md:text-3xl lg:text-4xl leading-[30px] md:leading-[45px] font-medium text-[#474A59]">
@@ -118,6 +134,7 @@ const TheDials = () => {
           <img className="" src={laptop} alt="" />
         </div>
       </div>
+      {/* tiempo end*/}
     </div>
   );
 };
