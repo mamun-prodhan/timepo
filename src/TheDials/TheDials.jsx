@@ -49,7 +49,7 @@ const TheDials = () => {
       <div className="relative mt-16 md:mt-24 lg:mt-36 flex gap-6 md:gap-0 flex-col md:flex-row items-center justify-center">
         {/* curve */}
         <img
-          className="hidden lg:block absolute z-[-1]  lg:top-[50%] lg:right-[-30%] translate-x-[-50%]
+          className="hidden lg:block absolute z-[-1]  lg:top-[50%] lg:right-[-60%] translate-x-[-50%]
          translate-y-[-50%] "
           src={curveLeft}
           alt=""
@@ -86,7 +86,7 @@ const TheDials = () => {
       <div className="relative mt-16 md:mt-24 lg:mt-36 flex gap-6 md:gap-0 flex-col md:flex-row-reverse items-center justify-center">
         {/* curve */}
         <img
-          className="hidden lg:block absolute z-[-1] lg:top-[50%] lg:right-[50%] translate-x-[-50%]
+          className="hidden lg:block absolute z-[-1] lg:top-[50%] lg:right-[30%] translate-x-[-50%]
          translate-y-[-50%] "
           src={curveRight}
           alt=""
