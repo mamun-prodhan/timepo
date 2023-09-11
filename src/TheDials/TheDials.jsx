@@ -46,10 +46,10 @@ const TheDials = () => {
       </div>
       {/* the dials end */}
       {/* the bezels start */}
-      <div className="relative overflow-hidden mt-16 md:mt-24 lg:mt-36 flex gap-6 md:gap-0 flex-col md:flex-row items-center justify-center">
+      <div className="relative mt-16 md:mt-24 lg:mt-36 flex gap-6 md:gap-0 flex-col md:flex-row items-center justify-center">
         {/* curve */}
         <img
-          className="hidden md:block absolute z-[-1] md:w-[70%] md:top-[50%] lg:top-[50%] md:right-[-60%] lg:right-[-55%] translate-x-[-50%]
+          className="hidden lg:block absolute z-[-1]  lg:top-[50%] lg:right-[-30%] translate-x-[-50%]
          translate-y-[-50%] "
           src={curveLeft}
           alt=""
@@ -83,10 +83,10 @@ const TheDials = () => {
       </div>
       {/* the bezrls end */}
       {/* the straps start */}
-      <div className="overflow-hidden relative mt-16 md:mt-24 lg:mt-36 flex gap-6 md:gap-0 flex-col md:flex-row-reverse items-center justify-center">
+      <div className="relative mt-16 md:mt-24 lg:mt-36 flex gap-6 md:gap-0 flex-col md:flex-row-reverse items-center justify-center">
         {/* curve */}
         <img
-          className="hidden md:block absolute z-[-1] md:w-[70%] md:top-[50%] lg:top-[50%] md:right-[30%] lg:right-[30%] translate-x-[-50%]
+          className="hidden lg:block absolute z-[-1] lg:top-[50%] lg:right-[50%] translate-x-[-50%]
          translate-y-[-50%] "
           src={curveRight}
           alt=""
