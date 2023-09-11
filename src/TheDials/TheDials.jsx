@@ -3,6 +3,7 @@ import dial from "../../src/assets/dials.png";
 import bezels from "../../src/assets/bezels.png";
 import straps from "../../src/assets/straps.png";
 import tab from "../../src/assets/tab.png";
+import laptop from "../../src/assets/laptop.png";
 import tablet from "../../src/assets/tablet.png";
 
 const TheDials = () => {
@@ -103,15 +104,20 @@ const TheDials = () => {
       </div>
       {/* the straps end */}
       {/* tiempo*/}
-      {/* <div className="mt-96 mb-32">
-        <p className="leading-[45px] px-36 text-4xl font-medium text-[#474A59]">
-          Tiempo empowers customers to customize their own ingenieur
-          chronograph, allowing for a more personalized and intelligent
-          experience.
-        </p>
-        <img className="mx-auto" src={tab} alt="" />
-        <img className="mx-auto" src={tablet} alt="" />
-      </div> */}
+      <div className="mt-52 mb-24">
+        <div className="px-20 mb-20 ">
+          <p className="pl-12 border-l-2 border-[#5D5D5D] text-2xl md:text-3xl lg:text-4xl leading-[45px] font-medium text-[#474A59]">
+            Tiempo empowers customers to customize their own ingenieur
+            chronograph, allowing for a more personalized and intelligent
+            experience.
+          </p>
+        </div>
+        <img src={tab} alt="" />
+        <div className="mt-10 flex flex-col md:flex-row gap-5 items-center justify-center mx-auto">
+          <img className="" src={tablet} alt="" />
+          <img className="" src={laptop} alt="" />
+        </div>
+      </div>
     </div>
   );
 };
