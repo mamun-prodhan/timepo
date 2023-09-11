@@ -104,16 +104,16 @@ const TheDials = () => {
       </div>
       {/* the straps end */}
       {/* tiempo*/}
-      <div className="mt-52 mb-24">
-        <div className="px-20 mb-20 ">
-          <p className="pl-12 border-l-2 border-[#5D5D5D] text-2xl md:text-3xl lg:text-4xl leading-[45px] font-medium text-[#474A59]">
+      <div className="md:mt-24 lg:mt-52 mb-10 md:mb-16 lg:mb-24">
+        <div className="md:px-10 lg:px-20 md:mb-16 lg:mb-20 ">
+          <p className="md:pl-8 lg:pl-12 border-l-2 border-[#5D5D5D] text-2xl md:text-3xl lg:text-4xl leading-[45px] font-medium text-[#474A59]">
             Tiempo empowers customers to customize their own ingenieur
             chronograph, allowing for a more personalized and intelligent
             experience.
           </p>
         </div>
         <img src={tab} alt="" />
-        <div className="mt-10 flex flex-col md:flex-row gap-5 items-center justify-center mx-auto">
+        <div className="md:mt-10 flex flex-col md:flex-row gap-5 items-center justify-center mx-auto md:w-[40%] lg:w-[100%]">
           <img className="" src={tablet} alt="" />
           <img className="" src={laptop} alt="" />
         </div>
